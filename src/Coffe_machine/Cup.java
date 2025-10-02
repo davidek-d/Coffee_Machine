@@ -27,6 +27,7 @@ class Cup {
     }
 
     //toString
+    @Override
     public String toString() {
         return DrinkName + " " + DrinkSize + " " + HasWhippedCream;
     }
