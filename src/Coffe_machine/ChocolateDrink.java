@@ -1,21 +1,23 @@
-package Lesson17.CoffeeMachine;
+package Coffe_machine;
 
-// Espresso subklasse – polymorfi
-class Espresso extends Drink {
-    public Espresso(String name) {
+// Coffe_machine.ChocolateDrink subklasse – polymorfi
+class ChocolateDrink extends Drink {
+    public ChocolateDrink(String name) {
         super(name); // TODO: kald super constructor
     }
+
+
+
     // compareTo implementeres her i superklassen
     @Override
     public int compareTo(Drink other) {
         // TODO: Sammenlign navne alfabetisk
         return this.name.compareToIgnoreCase(other.name);
     }
-
     @Override
     public Cup serve(Size size, boolean whippedCream) {
-        // TODO: Espresso har fast størrelse – size ignoreres
-        // TODO: Returner en Cup med navn, ingen size og uden flødeskum
+        // TODO: Coffe_machine.ChocolateDrink kan tilføje flødeskum
+        // TODO: Returner en Coffe_machine.Cup med navnet, størrelse og flødeskum
         return null;
     }
 }

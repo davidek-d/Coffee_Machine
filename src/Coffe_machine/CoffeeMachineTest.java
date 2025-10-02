@@ -1,15 +1,15 @@
-package Lesson17.CoffeeMachine;
+package Coffe_machine;
 
 // Testklasse
 public class CoffeeMachineTest {
     public static void main(String[] args) {
-        // TODO: Opret en CoffeeMachine
+        // TODO: Opret en Coffe_machine.CoffeeMachine
 
         // TODO: Sorter og udskriv alle drikke
 
         // TODO: Server forskellige drikke og udskriv Cups
         // Eksempel:
-        // Cup cup1 = machine.serveDrink("Sort kaffe", Size.MEDIUM, false);
+        // Coffe_machine.Cup cup1 = machine.serveDrink("Sort kaffe", Coffe_machine.Size.MEDIUM, false);
         // System.out.println(cup1);
 
         // TODO: Tilføj flere serveringseksempler med forskellige typer og flødeskum

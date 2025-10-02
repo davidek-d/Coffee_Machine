@@ -1,4 +1,4 @@
-package Lesson17.CoffeeMachine;
+package Coffe_machine;
 
 // Enum for størrelser
 public enum Size {

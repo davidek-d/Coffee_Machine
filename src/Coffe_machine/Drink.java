@@ -1,8 +1,7 @@
-package Lesson17.CoffeeMachine;
-
+package Coffe_machine;
 
 /*
- * Abstrakt klasse Drink
+ * Abstrakt klasse Coffe_machine.Drink
  * - Skal arves af alle drikke
  * - Viser abstraktion, polymorfi og arv
  */
@@ -17,7 +16,7 @@ abstract class Drink implements Comparable<Drink> {
     /*
      * Polymorf metode serve
      * - Skal implementeres forskelligt i subklasser
-     * - Skal returnere en Cup med den valgte drik
+     * - Skal returnere en Coffe_machine.Cup med den valgte drik
      */
     public abstract Cup serve(Size size, boolean whippedCream);
 

@@ -1,4 +1,5 @@
-package Lesson17.CoffeeMachine;
+package Coffe_machine;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,8 +10,8 @@ class CoffeeMachine {
     public CoffeeMachine() {
         drinks = new ArrayList<>();
         // TODO: Tilføj forskellige drikke til listen
-        // Eksempel: drinks.add(new Coffee("Sort kaffe"));
-        // TODO: Tilføj Espresso og ChocolateDrink
+        // Eksempel: drinks.add(new Coffe_machine.Coffee("Sort kaffe"));
+        // TODO: Tilføj Coffe_machine.Espresso og Coffe_machine.ChocolateDrink
     }
 
     /*

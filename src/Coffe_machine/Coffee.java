@@ -1,6 +1,6 @@
-package Lesson17.CoffeeMachine;
+package Coffe_machine;
 
-// Coffee subklasse – polymorfi
+// Coffe_machine.Coffee subklasse – polymorfi
 class Coffee extends Drink {
     public Coffee(String name) {
         super(name); // TODO: kald super constructor
@@ -14,8 +14,8 @@ class Coffee extends Drink {
     }
     @Override
     public Cup serve(Size size, boolean whippedCream) {
-        // TODO: Coffee kan have størrelser, men ikke flødeskum
-        // TODO: Returner en Cup med korrekt navn og størrelse
-        return null; // TODO: Erstat null med faktisk Cup
+        // TODO: Coffe_machine.Coffee kan have størrelser, men ikke flødeskum
+        // TODO: Returner en Coffe_machine.Cup med korrekt navn og størrelse
+        return null; // TODO: Erstat null med faktisk Coffe_machine.Cup
     }
 }
