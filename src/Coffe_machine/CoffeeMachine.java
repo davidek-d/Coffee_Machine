@@ -11,13 +11,13 @@ class CoffeeMachine {
         drinks = new ArrayList<>();
         // TODO: Tilføj forskellige drikke til listen
         // Eksempel: drinks.add(new Coffe_machine.Coffee("Sort kaffe"));
-        drinks.add(new Blackcoffee("Black Coffee"));
+        drinks.add(new Blackcoffee("BlackCoffee"));
         drinks.add(new Espresso("Espresso"));
-        drinks.add(new DoubleEspresso("Double espresso"));
-        drinks.add(new TripleEspresso("Triple espresso"));
-        drinks.add(new LatteMachiato("Latte machiato"));
-        drinks.add(new HotChoclate("Hot chocolate"));
-        drinks.add(new MilkChoclate("Milk chocolate"));
+        drinks.add(new DoubleEspresso("DoubleEspresso"));
+        drinks.add(new TripleEspresso("TripleEspresso"));
+        drinks.add(new LatteMachiato("LatteMachiato"));
+        drinks.add(new HotChoclate("HotChocolate"));
+        drinks.add(new MilkChoclate("MilkChocolate"));
         // TODO: Tilføj Coffe_machine.Espresso og Coffe_machine.ChocolateDrink
     }
 
@@ -30,11 +30,13 @@ class CoffeeMachine {
         // TODO: Loop igennem drinks-listen
         for (Drink d : drinks) {
             // TODO: Tjek om navnet matcher (ignoreCase)
-            if(drinkName.equalsIgnoreCase(String.valueOf(drinks)))
-
-            // TODO: Returner resultatet af serve()
-            // TODO: Håndter hvis drikken ikke findes
-            return null;
+            if(drinkName.equalsIgnoreCase(String.valueOf(drinks))) {
+                // TODO: Returner resultatet af serve()
+                return d.serve(drinkName, size, whippedCream);
+                // TODO: Håndter hvis drikken ikke findes
+            } else {
+                System.out.println("Fejl, kan ikke finde");
+            }
         }
 
         // TODO: sortDrinks() – sorter alfabetisk via Comparable
