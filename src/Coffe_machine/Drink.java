@@ -18,7 +18,7 @@ abstract class Drink implements Comparable<Drink> {
      * - Skal implementeres forskelligt i subklasser
      * - Skal returnere en Coffe_machine.Cup med den valgte drik
      */
-    public abstract Cup serve(Size size, boolean whippedCream);
+    public abstract Cup serve(String drinkName, Size size, boolean whippedCream);
 
     // TODO: Implementér getter for name
 
