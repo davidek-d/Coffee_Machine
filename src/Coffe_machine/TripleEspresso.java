@@ -17,10 +17,9 @@ class TripleEspresso extends Drink {
         return this.name.compareToIgnoreCase(other.name);
     }
 
-    // TODO: Coffe_machine.Espresso har fast størrelse – size ignoreres
-    // TODO: Returner en Coffe_machine.Cup med navn, ingen size og uden flødeskum
+
     @Override
-    public Cup serve(String drinkName, Size size, boolean whippedCream) {
+    public Cup serve(String drinkName, Size size, boolean HasWhippedCream) {
 
         return new Cup(drinkName, null, false);
     }

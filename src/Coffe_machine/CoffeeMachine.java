@@ -11,7 +11,7 @@ class CoffeeMachine {
         drinks = new ArrayList<>();
         // TODO: Tilføj forskellige drikke til listen
         // Eksempel: drinks.add(new Coffe_machine.Coffee("Sort kaffe"));
-        drinks.add(new Blackcoffee("Black Coffee"));
+        drinks.add(new BlackCoffee("Black Coffee"));
         drinks.add(new Espresso("Espresso"));
         drinks.add(new DoubleEspresso("Double espresso"));
         drinks.add(new TripleEspresso("Triple espresso"));

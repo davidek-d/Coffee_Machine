@@ -11,9 +11,6 @@ class DoubleEspresso extends Drink {
         return name;
     }
 
-//    public void setName(){
-//        this.name;
-//    }
 
     // compareTo implementeres her i superklassen
     @Override
@@ -21,16 +18,10 @@ class DoubleEspresso extends Drink {
         return this.name.compareToIgnoreCase(other.name);
     }
 
-//    private boolean whippedCream(){
-//        System.out.println("This kind of Coffee, dosn´t get served with whipped Cream");
-//        return false;
-//    }
 
 
-    // TODO: Coffe_machine.Espresso har fast størrelse – size ignoreres
-    // TODO: Returner en Coffe_machine.Cup med navn, ingen size og uden flødeskum
     @Override
-    public Cup serve(String drinkName, Size size, boolean whippedCream) {
+    public Cup serve(String drinkName, Size size, boolean HasWhippedCream) {
         return new Cup(drinkName, null, false);
     }
 }
