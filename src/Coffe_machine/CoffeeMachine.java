@@ -3,14 +3,12 @@ package Coffe_machine;
 import java.util.ArrayList;
 import java.util.List;
 
-// Kaffemaskine klasse – aggregation
 class CoffeeMachine {
     private List<Drink> drinks;
 
     public CoffeeMachine() {
         drinks = new ArrayList<>();
-        // TODO: Tilføj forskellige drikke til listen
-        // Eksempel: drinks.add(new Coffe_machine.Coffee("Sort kaffe"));
+
         drinks.add(new Blackcoffee("BlackCoffee"));
         drinks.add(new Espresso("Espresso"));
         drinks.add(new DoubleEspresso("DoubleEspresso"));
@@ -18,7 +16,6 @@ class CoffeeMachine {
         drinks.add(new LatteMachiato("LatteMachiato"));
         drinks.add(new HotChoclate("HotChocolate"));
         drinks.add(new MilkChoclate("MilkChocolate"));
-        // TODO: Tilføj Coffe_machine.Espresso og Coffe_machine.ChocolateDrink
     }
 
     /*
