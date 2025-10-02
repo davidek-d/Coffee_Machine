@@ -27,13 +27,11 @@ class CoffeeMachine {
      * - Kalder serve() på den rigtige drik
      */
     public Cup serveDrink(String drinkName, Size size, boolean whippedCream) {
-        // TODO: Loop igennem drinks-listen
         for (Drink d : drinks) {
-            // TODO: Tjek om navnet matcher (ignoreCase)
             if(drinkName.equalsIgnoreCase(String.valueOf(drinks))) {
-                // TODO: Returner resultatet af serve()
+                //Returner resultatet af serve()
                 return d.serve(drinkName, size, whippedCream);
-                // TODO: Håndter hvis drikken ikke findes
+                //Håndter hvis drikken ikke findes
             } else {
                 System.out.println("Fejl, kan ikke finde");
             }
