@@ -2,6 +2,35 @@ package Coffe_machine;
 
 // Coffe_machine.Cup-klasse – eksempel på encapsulation
 class Cup {
+    private String DrinkName;
+    private Size DrinkSize;
+    private boolean HasWhippedCream;
+
+    public Cup(String DrinkName, Size DrinkSize, boolean HasWhippedCream){
+        this.DrinkName = DrinkName;
+        this.DrinkSize = DrinkSize;
+        this.HasWhippedCream = HasWhippedCream;
+
+    }
+
+    //getters
+    public String getDrinkName(){
+        return DrinkName;
+    }
+
+    public Size getDrinkSize(){
+        return DrinkSize;
+    }
+
+    public boolean HasWhippedCream() {
+        return HasWhippedCream;
+    }
+
+    //toString
+    public String toString() {
+        return DrinkName + " " + DrinkSize + " " + HasWhippedCream;
+    }
+
     // TODO: private felter: drinkName, size, whippedCream
 
     // TODO: Lav constructor, der initialiserer felterne
