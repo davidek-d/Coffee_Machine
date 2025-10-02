@@ -1,8 +1,8 @@
 package Coffe_machine;
 
 // Coffe_machine.ChocolateDrink subklasse – polymorfi
-class ChocolateDrink extends Drink {
-    public ChocolateDrink(String name) {
+class HotChoclate extends Drink {
+    public HotChoclate(String name) {
         super(name); // TODO: kald super constructor
     }
 
